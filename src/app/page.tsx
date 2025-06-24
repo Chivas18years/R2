@@ -98,7 +98,29 @@ export default function Home() {
         </div>
       </section>
 
-
+      {/* Etapas */}
+      <section className="py-16 bg-[#f7fbfb]">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12 text-[#092046]">Como solicitar o agendamento online?</h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center">
+              <Image src="/new_icon_form.png" width={48} height={48} alt="Ícone de formulário" className="mb-4" />
+              <h3 className="text-xl font-bold text-[#092046] mb-4">Preencha o formulário</h3>
+              <p className="text-[#919db1]">Clique no botão inicial para ter acesso ao formulário. Preencha os dados até o fim para chegar na tela de pagamento.</p>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center">
+              <Image src="/new_icon_payment.png" width={48} height={48} alt="ícone" className="mb-4" />
+              <h3 className="text-xl font-bold text-[#092046] mb-4">Realize o pagamento</h3>
+              <p className="text-[#919db1]">Realize o pagamento do pedido. Após compensado o pagamento, irá receber um e-mail de confirmação.</p>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center">
+              <Image src="/new_icon_email.png" width={48} height={48} alt="ícone" className="mb-4" />
+              <h3 className="text-xl font-bold text-[#092046] mb-4">Receba tudo por e-mail</h3>
+              <p className="text-[#919db1]">Após o confirmado seu pagamento, iremos entrar em contato por e-mail em até 48 horas úteis.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* FAQ */}
       <section className="py-16">
