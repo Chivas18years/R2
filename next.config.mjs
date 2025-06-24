@@ -3,6 +3,16 @@ const nextConfig = {
   experimental: {
     serverComponentsExternalPackages: ["@prisma/client"],
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'ext.same-assets.com',
+        port: '',
+        pathname: '/**',
+      },
+    ],
+  },
   // Configurações agressivas para eliminar cache
   async headers() {
     return [

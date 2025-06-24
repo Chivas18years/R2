@@ -72,6 +72,7 @@ export default function Home() {
           <div className="flex-1 flex justify-center md:justify-end">
             <Image
               src="/new_logo.png"
+              alt="Logo do serviço CNH"
               width={320}
               height={320}
               className="w-64 h-64 md:w-80 md:h-80"
@@ -112,7 +113,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center mb-12 text-[#092046]">Como solicitar o agendamento online?</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center">
-              <Image src="/new_icon_form.png" />
+              <Image src="/new_icon_form.png" width={48} height={48} alt="Ícone de formulário" className="mb-4" />
               <h3 className="text-xl font-bold text-[#092046] mb-4">Preencha o formulário</h3>
               <p className="text-[#919db1]">Clique no botão inicial para ter acesso ao formulário. Preencha os dados até o fim para chegar na tela de pagamento.</p>
             </div>
